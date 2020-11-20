@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;500;600;900&family=Poppins:wght@200;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container"> 
+<!-- Väder information sektion-->
+<section class="weather-section">
+    <div class="weater-container">
+        <div class="weather-background">
+            <div class="weather-content">
+    <img class="rainbow" src="img/rainbow.svg">
+            <p class="city"></p>
+            <p class="desc"></p>
+            <p class="temperature"></p>
+            <div class="iconImg"></div>
+            <p class="wind"></p>
+            <p class="humidity"></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Användarens input sektion -->
+<section class="input-section"> 
+    <div class="input-container"> 
+    <h1 class="heading">Välkommen till AnotherDestination</h1>
+    <h2 class="subheading">Dåligt väder? Inga problem, ange en destination och håll tummarna för att det är sämre väder där.&#9994;</h2>
+    <!-- Här skriver användaren in stad-->
+    <input class="input-value" type="text" placeholder="Ange en destination" autofocus>
+    <input type="submit" value="Ta mig till en annan destination!" class="submit-btn">
+    <!-- Uppdatera-knapp för att nollställa vid sökning-->
+    <input type="button" class="reload-btn" value="Uppdatera sidan" onclick="document.location.reload(true)">
+
+    </div>
+    </section>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
