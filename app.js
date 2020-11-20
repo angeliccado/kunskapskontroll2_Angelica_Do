@@ -48,7 +48,7 @@ button.addEventListener('click', function(){
         alert("Wopsie! Det du sökte på är ingen stad. Kolla stavningen och försök igen! ");
     })
 });
-
+//function för att ta bort img på startsidan
 function removeImg(){
 let img = document.querySelector('.rainbow');
 img.remove();
