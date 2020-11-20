@@ -6,5 +6,5 @@
  Detta medförde då att att användaren inte kan skriva in en ny sökning direkt i input-raden utan måste uppdatera sidan efter varje sökning.  
 
 2. I städer där temperaturen är över 15 grader kommer bakgrunden ändra färg. 
-Relevant sökning: Dubai, Sydney, Maldives, 
+Förslag på sökning: Dubai, Sydney, Maldives, 
 
